@@ -392,7 +392,7 @@ st.info("💡 Logo and Signature elements are automatically pulled dynamically o
 col_e1, col_e2, col_e3 = st.columns([1, 1, 1])
 email_sender = col_e1.text_input("Your Gmail Address", "ankit.mohanty@gmail.com")
 email_password = col_e2.text_input("Your Gmail App Password", type="password")
-email_receiver = col_e3.text_input("CC Recipient Email", "manager@mohantyenterprises.com")
+email_receiver = col_e3.text_input("CC Recipient Email", "mmes.odisha@gmail.com")
 
 col_sms1, col_sms2 = st.columns([2, 1])
 sms_api_key = col_sms1.text_input("Fast2SMS API Key", type="password")
