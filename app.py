@@ -390,7 +390,7 @@ st.header("3. Digital Assets & Alerts Control")
 st.info("💡 Logo and Signature elements are automatically pulled dynamically out of your permanent constants configurations.")
 
 col_e1, col_e2, col_e3 = st.columns([1, 1, 1])
-email_sender = col_e1.text_input("Your Gmail Address", "ankit.mohanty@gmail.com")
+email_sender = col_e1.text_input("Your Gmail Address", "mmes.odisha@gmail.com")
 email_password = col_e2.text_input("Your Gmail App Password", type="password")
 email_receiver = col_e3.text_input("CC Recipient Email", "mmes.odisha@gmail.com")
 
